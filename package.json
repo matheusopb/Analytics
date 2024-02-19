@@ -2,6 +2,7 @@
   "name": "analytics",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://matheusopb.github.io/analytics",
   "dependencies": {
     "@firebase/auth-types": "^0.11.1",
     "@firebase/firestore": "^3.8.0",
@@ -50,7 +51,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
