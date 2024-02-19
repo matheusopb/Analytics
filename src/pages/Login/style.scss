@@ -1,0 +1,84 @@
+.containerLogin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #5D5C61;
+  color: white;
+  font-family: Arial, sans-serif;
+
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .subtext {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+
+  .searchBox {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+
+    .input {
+      padding: 10px;
+      margin-right: 10px;
+      flex: 1;
+    }
+
+    .searchButton {
+      padding: 10px 20px;
+      background-color: #7395AE;
+      border: none;
+      color: white;
+      cursor: pointer;
+    }
+  }
+}
+
+.dashboard {
+  padding: 20px;
+  background-color: #f0f4f8; /* Cor de fundo da sua preferência */
+}
+
+.add-button {
+  margin-bottom: 20px;
+  /* estilos adicionais para o botão */
+}
+
+.campaign-list {
+  list-style: none;
+  padding: 0;
+}
+
+.campaign-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  /* estilos adicionais para os itens da campanha */
+}
+
+.status-indicator {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  /* estilos adicionais para o indicador de status */
+}
+
+.campaign-info h2 {
+  margin: 0;
+  /* estilos adicionais para o título da campanha */
+}
+
+.campaign-info p {
+  margin: 0;
+  /* estilos adicionais para a data de atualização */
+}
+
+.details-button {
+  /* estilos adicionais para o botão de detalhes */
+}
