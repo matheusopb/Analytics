@@ -8,7 +8,7 @@ import { connect } from "react-redux";
 import { AuthState } from "./store/ducks/auth/types"
 import Home from "./pages/Home";
 import './theme.sass';
-import { decryptData } from './utils';
+// import { decryptData } from './utils';
 
 function App({ authReducer }: { authReducer: AuthState }) {
   return (
