@@ -2,7 +2,7 @@
   "name": "analytics",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://matheusopb.github.io/analytics",
+  "homepage": "https://matheusopb.github.io/Analytics",
   "dependencies": {
     "@firebase/auth-types": "^0.11.1",
     "@firebase/firestore": "^3.8.0",
